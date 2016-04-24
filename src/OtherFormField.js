@@ -40,8 +40,19 @@ OtherFormField.defaultProps = {
 };
 
 OtherFormField.propTypes = {
+    /**
+     * @title 类名前缀
+     * @veIgnore
+     */
     jsxprefixCls: React.PropTypes.string,
+    /**
+     * @title 弹性比例
+     */
     jsxflex: React.PropTypes.number,
+    /**
+     * @title 是否显示
+     * @veIgnore
+     */
     jsxshow: React.PropTypes.bool
 };
 
