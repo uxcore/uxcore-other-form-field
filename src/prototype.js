@@ -13,8 +13,11 @@ module.exports = Bundle.createPrototype({
     canDraging: true,
     isInline: true,
     isContainer: false,
-    canDropto: true,
-    conDroping: false,
+    canDropto: function(container) {
+        let name = container.getComponentName();
+        return /Form|FormRow/.test(name);
+    },
+    canDroping: false,
     configure: [{
             name: "jsxflex",
             title: "弹性比例",
