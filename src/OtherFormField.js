@@ -18,11 +18,14 @@ class OtherFormField extends React.Component {
 
     render() {
         let me = this;
+        let style = {
+            width: (me.props.jsxflex / me.props.totalFlex * 100 + '%')
+        };
         return (
             <div className={classnames({
                 [me.props.jsxprefixCls]: true,
                 [me.props.className]: !!me.props.className
-            })} style={assign({}, me.props.style, {
+            })} style={assign({}, style, {
                 display: me.props.jsxshow ? "table" : "none"
             })}>
                 {me.props.children}

@@ -1,3 +1,7 @@
+## 0.1.4
+
+`CHANGED` add `totalFlex` logic
+
 ## 0.1.3
 
 `CHANGED` change `canDropTo` in `prototype`
