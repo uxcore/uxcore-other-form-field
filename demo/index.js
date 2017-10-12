@@ -6,5 +6,5 @@
  * All rights reserved.
  */
 
- var Demo = require('./OtherFormFieldDemo');
+ import Demo from './OtherFormFieldDemo';
  ReactDOM.render(<Demo/>, document.getElementById('UXCoreDemo'));

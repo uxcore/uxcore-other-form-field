@@ -6,10 +6,11 @@
  * All rights reserved.
  */
 
-let React = require('react');
-let ReactDOM = require('react-dom');
-let classnames = require('classnames');
-let assign = require('object-assign');
+import React from 'react';
+import PropTypes from 'prop-types';
+import ReactDOM from 'react-dom';
+import classnames from 'classnames';
+import assign from 'object-assign';
 
 class OtherFormField extends React.Component {
     constructor(props) {
@@ -33,7 +34,7 @@ class OtherFormField extends React.Component {
         );
     }
     
-} 
+}
 
 
 OtherFormField.defaultProps = {
@@ -47,20 +48,20 @@ OtherFormField.propTypes = {
      * @title 类名前缀
      * @veIgnore
      */
-    jsxprefixCls: React.PropTypes.string,
+    jsxprefixCls: PropTypes.string,
     /**
      * @title 弹性比例
      */
-    jsxflex: React.PropTypes.number,
+    jsxflex: PropTypes.number,
     /**
      * @title 是否显示
      * @veIgnore
      */
-    jsxshow: React.PropTypes.bool
+    jsxshow: PropTypes.bool
 };
 
 OtherFormField.displayName = "OtherFormField";
 
-module.exports = OtherFormField;
+export default OtherFormField;
 
  

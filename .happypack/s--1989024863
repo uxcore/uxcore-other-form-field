@@ -1,0 +1,15 @@
+'use strict';
+
+var _OtherFormFieldDemo = require('./OtherFormFieldDemo');
+
+var _OtherFormFieldDemo2 = _interopRequireDefault(_OtherFormFieldDemo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+ReactDOM.render(React.createElement(_OtherFormFieldDemo2['default'], null), document.getElementById('UXCoreDemo')); /**
+                                                                                                                     * OtherFormField Component Demo for uxcore
+                                                                                                                     * @author eternalsky
+                                                                                                                     *
+                                                                                                                     * Copyright 2014-2015, Uxcore Team, Alinw.
+                                                                                                                     * All rights reserved.
+                                                                                                                     */

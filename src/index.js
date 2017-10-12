@@ -6,4 +6,4 @@
  * All rights reserved.
  */
 
-module.exports = require('./OtherFormField');
+export default from './OtherFormField';

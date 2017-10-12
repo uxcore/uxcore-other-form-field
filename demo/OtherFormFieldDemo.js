@@ -6,11 +6,11 @@
  * All rights reserved.
  */
 
-let classnames = require('classnames');
+import classnames from 'classnames';
 
-let OtherFormField = require('../src');
-let Form = require('uxcore-form/build/Form');
-let FormRow = require('uxcore-form-row')
+import OtherFormField from '../src';
+import Form from 'uxcore-form/build/Form';
+import FormRow from 'uxcore-form-row';
 
 class Demo extends React.Component {
 
@@ -36,6 +36,6 @@ class Demo extends React.Component {
             </div>
         );
     }
-};
+}
 
-module.exports = Demo;
+export default Demo;
