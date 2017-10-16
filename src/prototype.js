@@ -1,9 +1,9 @@
 
-const React = require('react');
-const {Bundle} = require('engine');
-const {BoolSetter, TextSetter, ChoiceSetter, JsonSetter, NumberSetter} = require('engine-utils');
+import React from 'react';
+import { Bundle } from 'engine';
+import { BoolSetter, TextSetter, ChoiceSetter, JsonSetter, NumberSetter } from 'engine-utils';
 
-module.exports = Bundle.createPrototype({
+export default Bundle.createPrototype({
     title: "其他",
     category: "表单",
     icon: require("./logo.svg"), // todo: require("./logo.svg"),
